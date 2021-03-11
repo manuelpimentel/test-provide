@@ -1,0 +1,19 @@
+type Query {
+  newsById(id: ID): News
+  allNews(filter: Filter): [News]
+}
+
+type News {
+  id: ID
+  title: String
+  description: String
+  date: String
+  updatedDate: String
+  image: String
+}
+
+input Filter {
+  criteria: String
+  size: Int
+  page: Int
+}

@@ -1,0 +1,10 @@
+query
+{
+    allNews
+    {
+        _id
+        _date
+        _title
+        _imageURL
+    }
+}

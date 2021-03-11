@@ -1,0 +1,10 @@
+query
+{
+    newsById(id: 8)
+    {
+        _id
+        _date
+        _title
+        _imageURL
+    }
+}
