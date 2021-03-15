@@ -55,7 +55,7 @@ input Filter {
 The first thing we need to do is clone the project from github.
 
 ```bash
-git clone https://github.com/manuelpimentel/provideTest.git
+git clone https://github.com/manuelpimentel/test-provide.git
 ```
 
 After cloning the project and locate yourself in the base directory of the project (/provideTest), we're going to compile and deploy the application using the following commands.
